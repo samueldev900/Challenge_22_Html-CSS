@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+    --cor0:hsl(1, 90%, 64%);
+    --cor1:hsl(219, 85%, 26%);
+    --cor2:hsl(0, 0%, 100%);
+    --cor3:hsl(210, 60%, 98%);
+    --cor4:hsl(211, 68%, 94%);
+    --cor5:hsl(205, 33%, 90%);
+    --cor6:hsl(219, 14%, 63%);
+    --cor7:hsl(219, 12%, 42%);
+    --cor8:hsl(224, 21%, 14%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+@media screen and (min-width:700px) {
+    body,html{
+        height: 100vh;
+    }
+    body{
+        background-color: var(--cor4);
+    }
+    main{
+        height: 770px;
+        width: 655px;
+        padding: 35px;
+        border-radius: 15px;
+        background-color: white;
+    }
+    .name:hover{
+        color: var(--cor1);
+        cursor: pointer;
+    }
+    .div-reactions{
+        height: 40px;
+    }
+    .div-reactions p {
+        font-size: 0.98rem;
+    }
+    #img-chess {
+        margin-left: auto;
+    }   
+    #rizky-msg{
+        width: 542px;
+        height: 60px;
+    }
+    #rizky-msg:hover{
+        cursor: pointer;
+        background-color: var(--cor5);
+    }
+    #rizky-msg p{
+        margin: 0;
+        font-size: 1rem;
+    }
+    .div-reactions2{
+        height: 127px;
+    }
+    .div-reactions2 p {
+        font-size: 0.98rem;
+    }
+    .div-reactions3{
+        margin: 5px;
+        height: 50px;
+    }
+    .div-reactions3 p {
+        font-size: 0.98rem;
+    }
+    .div-reaction3 img{
+        width: 100px;
+    }
+    .notification-name{
+        font-size: 1.35rem;
+    }
+    .notification-number{
+        margin-left: 15px;
+    }
+    section{
+        width: 655px;
+        font-size: 1rem;
+    }
+    section p:hover{
+        color: var(--cor1);
+        cursor: pointer;
+    }
+    .word-highlighted:hover{
+        color: var(--cor1);
+        cursor: pointer; 
+    }
+    img:hover{
+        cursor: pointer;
+    }
+    .chess-word:hover{
+        color: var(--cor1);
+        cursor: pointer;    
+    }
+}
