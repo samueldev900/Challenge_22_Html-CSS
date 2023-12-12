@@ -22,9 +22,10 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:1000px) {
 
     body{
+        height: 100vh;
         background-color: var(--cor3);
     }
     main{
