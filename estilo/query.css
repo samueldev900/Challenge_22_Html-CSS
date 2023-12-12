@@ -23,7 +23,9 @@
 }
 
 @media screen and (min-width:1000px) {
-
+    html{
+        background-color: red;
+    }
     body{
         height: 100vh;
         background-color: var(--cor3);
